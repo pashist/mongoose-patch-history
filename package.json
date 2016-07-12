@@ -1,46 +1,33 @@
 {
-  "name": "mongoose-patch-history",
-  "version": "1.1.5",
+  "name": "mongoose-patch-history-plugin",
+  "version": "0.9.0",
   "description": "Mongoose plugin that saves a history of JSON patch operations for all documents belonging to a schema in an associated 'patches' collection",
   "main": "lib/index.js",
   "author": "Christoph Werner <christoph@codepunkt.de>",
+  "contributors": [
+    {"name": "Christoph Werner", "email": "christoph@codepunkt.de"},
+    {"name": "Pavel Lozka", "email": "mistby@gmail.com"}
+  ],
   "license": "MIT",
   "dependencies": {
     "fast-json-patch": "^0.5.7",
-    "humps": "^1.1.0",
-    "lodash": "^4.11.1",
-    "mongoose": "^4.4.14"
+    "lodash": "^4.11.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.7.7",
-    "babel-preset-es2015": "^6.6.0",
-    "bluebird": "^3.3.5",
-    "coveralls": "^2.11.9",
-    "eslint": "^2.9.0",
-    "eslint-config-standard": "^5.2.0",
-    "eslint-plugin-promise": "^1.1.0",
-    "eslint-plugin-standard": "^1.3.2",
-    "istanbul": "^1.0.0-alpha.2",
-    "mocha": "^2.4.5",
-    "pre-commit": "^1.1.2"
+    "mocha": "^2.4.5"
   },
   "scripts": {
-    "addCompile": "git add lib/",
-    "coverage": "istanbul cover _mocha -- --compilers js:babel-register",
-    "compile": "rm -rf lib/ && babel -d lib/ src/",
-    "lint": "eslint {src,test}/**",
-    "prepublish": "npm run compile",
-    "test": "npm run lint && mocha --compilers js:babel-register"
+    "test": "mocha"
   },
   "pre-commit": {
-    "run": "test, compile, addCompile",
+    "run": "test",
     "silent": true
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gonsfx/mongoose-patch-history"
+    "url": "git://github.com/pashist/mongoose-patch-history-plugin"
   },
-  "bugs": "https://github.com/gonsfx/mongoose-patch-history/issues",
+  "bugs": "https://github.com/pashist/mongoose-patch-history-plugin/issues",
   "keywords": [
     "mongo",
     "Mongo",
