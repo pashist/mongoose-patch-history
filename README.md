@@ -8,6 +8,10 @@ Mongoose Patch History is a mongoose plugin that saves a history of [JSON Patch]
 
     $ npm install mongoose-patch-history
 
+## Requirements
+
+You should have `mongoose 4` installed
+    
 ## Usage
 To use __mongoose-patch-history__ for an existing mongoose schema you can simply plug it in. As an example, the following schema definition defines a `Post` schema, and uses mongoose-patch-history with default options:
 
