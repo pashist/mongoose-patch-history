@@ -1,6 +1,6 @@
 # Mongoose Patch History
 
-[![Build Status](https://travis-ci.org/pashist/mongoose-patch-history.svg?branch=master)](https://travis-ci.org/pashist/mongoose-patch-history) [![Dependency Status](https://david-dm.org/pashist/mongoose-patch-history-plugin.svg)](https://david-dm.org/pashist/mongoose-patch-history-plugin)
+[![Build Status](https://travis-ci.org/pashist/mongoose-patch-history.svg?branch=master)](https://travis-ci.org/pashist/mongoose-patch-history) [![Dependency Status](https://david-dm.org/pashist/mongoose-patch-history-plugin.svg)](https://david-dm.org/pashist/mongoose-patch-history-plugin) [![npm](https://img.shields.io/npm/v/mongoose-patch-history-plugin.svg?maxAge=2592000)](https://www.npmjs.com/package/mongoose-patch-history-plugin) [![npm](https://img.shields.io/npm/dt/mongoose-patch-history-plugin.svg?maxAge=2592000)](https://www.npmjs.com/package/mongoose-patch-history-plugin)
 
 Mongoose Patch History is a mongoose plugin that saves a history of [JSON Patch](http://jsonpatch.com/) operations for all documents belonging to a schema in an associated "patches" collection.
 
