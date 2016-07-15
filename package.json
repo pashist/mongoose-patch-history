@@ -5,12 +5,18 @@
   "main": "lib/index.js",
   "author": "Christoph Werner <christoph@codepunkt.de>",
   "contributors": [
-    {"name": "Christoph Werner", "email": "christoph@codepunkt.de"},
-    {"name": "Pavel Lozka", "email": "mistby@gmail.com"}
+    {
+      "name": "Christoph Werner",
+      "email": "christoph@codepunkt.de"
+    },
+    {
+      "name": "Pavel Lozka",
+      "email": "mistby@gmail.com"
+    }
   ],
   "license": "MIT",
   "dependencies": {
-    "fast-json-patch": "^0.5.7",
+    "fast-json-patch": "^1.0.0",
     "lodash": "^4.11.1"
   },
   "devDependencies": {
